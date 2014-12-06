@@ -3940,6 +3940,7 @@
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 		<attribute>
+			<description>Sets the column name.</description>
 			<name>name</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
@@ -4002,6 +4003,7 @@
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 		<attribute>
+			<description>Sets the vertical alignment of the column contents. The default is <![CDATA[<code>"middle"</code>]]>.</description>
 			<name>valign</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
@@ -4019,17 +4021,19 @@
 		<tag-class>com.liferay.taglib.ui.SearchContainerColumnJSPTag</tag-class>
 		<body-content>JSP</body-content>
 		<attribute>
-			<description>Sets the horizontal alignment of the column contents.</description>
+			<description>Sets the horizontal alignment of the column contents. The default is <![CDATA[<code>"left"</code>]]>.</description>
 			<name>align</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 		<attribute>
+			<description>Sets the number of columns to span. The default is <![CDATA[<code>1</code>]]>.</description>
 			<name>colspan</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 		<attribute>
+			<description>Sets the CSS class for the column.</description>
 			<name>cssClass</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
@@ -4062,17 +4066,19 @@
 		<tag-class>com.liferay.taglib.ui.SearchContainerColumnStatusTag</tag-class>
 		<body-content>JSP</body-content>
 		<attribute>
-			<description>Sets the horizontal alignment of the column contents.</description>
+			<description>Sets the horizontal alignment of the column contents. The default is <![CDATA[<code>"left"</code>]]>.</description>
 			<name>align</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 		<attribute>
+			<description>Sets the number of columns to span. The default is <![CDATA[<code>1</code>]]>.</description>
 			<name>colspan</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 		<attribute>
+			<description>Sets the CSS class for the column.</description>
 			<name>cssClass</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
@@ -4093,16 +4099,19 @@
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 		<attribute>
+			<description>Sets the column as sortable.</description>
 			<name>orderable</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 		<attribute>
+			<description>Sets the object's property to sort the column by.</description>
 			<name>orderableProperty</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 		<attribute>
+			<description>Sets the object's property to use for the column.</description>
 			<name>property</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
