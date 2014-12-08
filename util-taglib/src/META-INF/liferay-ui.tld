@@ -3952,26 +3952,30 @@
 		</attribute>
 	</tag>
 	<tag>
+		<description>Creates a date column in a search container.</description>
 		<name>search-container-column-date</name>
 		<tag-class>com.liferay.taglib.ui.SearchContainerColumnDateTag</tag-class>
 		<body-content>JSP</body-content>
 		<attribute>
+			<description>Sets the horizontal alignment of the column contents. The default is <![CDATA[<code>"left"</code>]]>.</description>
 			<name>align</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 		<attribute>
+			<description>Sets the number of columns to span. The default is <![CDATA[<code>1</code>]]>.</description>
 			<name>colspan</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 		<attribute>
+			<description>Sets the CSS class for the column.</description>
 			<name>cssClass</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
-		</attribute>
-		<attribute>
-			<description>Sets the URL of the items in the column.</description>
+        </attribute>
+        <attribute>
+            <description>Sets the URL of the items in the column.</description>
 			<name>href</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
@@ -3982,22 +3986,25 @@
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 		<attribute>
+			<description>Sets the column name.</description>
 			<name>name</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 		<attribute>
+			<description>Sets the column as sortable.</description>
 			<name>orderable</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 		<attribute>
+			<description>Sets the object's property to sort the column by.</description>
 			<name>orderableProperty</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 		<attribute>
-			<description>Sets the property to request from the row object.</description>
+            <description>Sets the property to request from the row object.</description>
 			<name>property</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
@@ -4009,7 +4016,7 @@
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 		<attribute>
-			<description>Sets the value of the column.</description>
+            <description>Sets the value of the column.</description>
 			<name>value</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
@@ -4084,6 +4091,7 @@
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 		<attribute>
+			<description>Sets the URL for the column's contents.</description>
 			<name>href</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
@@ -4117,12 +4125,13 @@
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 		<attribute>
+			<description>Sets the vertical alignment of the column contents. The default is <![CDATA[<code>"middle"</code>]]>.</description>
 			<name>valign</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 		<attribute>
-			<description>Sets the workflow status of the item.</description>
+			<description>Sets the item's workflow status.</description>
 			<name>status</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
@@ -4151,16 +4160,19 @@
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 		<attribute>
+			<description>Sets a string buffer variable for constructing a URL in a scriptlet.</description>
 			<name>buffer</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 		<attribute>
+			<description>Sets the number of columns to span. The default is <![CDATA[<code>1</code>]]>.</description>
 			<name>colspan</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 		<attribute>
+			<description>Sets the CSS class for the column.</description>
 			<name>cssClass</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
@@ -4181,11 +4193,13 @@
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 		<attribute>
+			<description>Sets the column as sortable.</description>
 			<name>orderable</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 		<attribute>
+			<description>Sets the object's property to sort the column by.</description>
 			<name>orderableProperty</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
@@ -4206,11 +4220,13 @@
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 		<attribute>
+			<description>Determines whether values are automatically translated.</description>
 			<name>translate</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 		<attribute>
+			<description>Sets the vertical alignment of the column contents. The default is <![CDATA[<code>"middle"</code>]]>.</description>
 			<name>valign</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
@@ -4299,6 +4315,7 @@
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 		<attribute>
+			<description>Sets the variable to use for the results.</description>
 			<name>resultsVar</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
@@ -4334,11 +4351,13 @@
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 		<attribute>
+			<description>Sets the returned model instances as HTML escaped.</description>
 			<name>escapedModel</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 		<attribute>
+			<description>Sets the variable name to use for the rows' index.</description>
 			<name>indexVar</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
@@ -4356,11 +4375,13 @@
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 		<attribute>
+			<description>Sets the model property to use as the row id.</description>
 			<name>rowIdProperty</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 		<attribute>
+			<description>Sets the variable name to use for the rows.</description>
 			<name>rowVar</name>
 			<required>false</required>
 			<rtexprvalue>true</rtexprvalue>
@@ -4377,15 +4398,18 @@
 		</attribute>
 	</tag>
 	<tag>
+		<description>Creates parameters for rows in the search container. The <![CDATA[<code>liferay-ui:search-container-row</code>]]> tag is required.</description>
 		<name>search-container-row-parameter</name>
 		<tag-class>com.liferay.taglib.ui.SearchContainerRowParameterTag</tag-class>
 		<body-content>JSP</body-content>
 		<attribute>
+			<description>Sets the name of the row parameter.</description>
 			<name>name</name>
 			<required>true</required>
 			<rtexprvalue>true</rtexprvalue>
 		</attribute>
 		<attribute>
+			<description>Sets the value of the row parameter.</description>
 			<name>value</name>
 			<required>true</required>
 			<rtexprvalue>true</rtexprvalue>
