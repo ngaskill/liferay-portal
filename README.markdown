@@ -34,7 +34,7 @@ For more details on these and other features, please refer to the
 
 ## Quick Start
 
-To get up and running quickly, *download* a
+To get up and running quickly, download a
 [pre-built Liferay Portal release](http://liferay.com/downloads) and follow the
 [Quick Start](http://liferay.com/quick-start) instructions. For more detailed
 installation instructions, please refer to the
